@@ -30,3 +30,9 @@ btn[2].onclick = function(){
     }
     this.classList.add('active')
 }
+
+const buybtn = document.getElementById('buy');
+
+buybtn.addEventListener('click', ()=>{
+    prompt('Thanks for Patronizing Us!')
+})
